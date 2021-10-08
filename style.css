@@ -17,11 +17,12 @@ body,
 }
 
 .parent {
-  font-size: 30px;
+  font-size: 3rem;
   display: flex;
   justify-content: space-around;
   align-items: flex-start;
   text-align: center;
+  font-family: 'Italianno', cursive;
 }
 .section-header {
   text-align: center;
@@ -30,7 +31,13 @@ body,
 }
 
 .child {
+  font-size: 3rem;
   width: 28%;
   border: 5px solid black;
   height: 400px;
+}
+
+.flexbox-img{
+margin: 0%;
+width: 300px;
 }
