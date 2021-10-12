@@ -23,6 +23,7 @@ body,
   align-items: flex-start;
   text-align: center;
   font-family: "Italianno", cursive;
+  flex-wrap: wrap;
 }
 .section-header {
   text-align: center;
@@ -39,6 +40,9 @@ body,
 
 .img {
   margin: 0%;
-  width: 90%;
+  width: 95%;
   align-items: center;
+}
+button:hover {
+  color: blue;
 }
