@@ -32,7 +32,7 @@ body,
 }
 
 .child {
-  font-size: 3rem;
+  font-size: 4rem;
   width: 28%;
   border: 5px solid black;
   height: 400px;
@@ -40,9 +40,20 @@ body,
 
 .img {
   margin: 0%;
-  width: 95%;
+  width: 85%;
   align-items: center;
 }
-button:hover {
-  color: blue;
+
+.child {
+  transition: all 0.3s;
+}
+
+.child:hover {
+  transform: scale(1.05);
+  font-size: 2rem;
+}
+
+.form:before {
+  content: "\262D";
+  font-size: 1rem;
 }
