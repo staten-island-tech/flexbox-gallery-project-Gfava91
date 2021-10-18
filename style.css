@@ -64,3 +64,10 @@ body,
   content: "\262D";
   font-size: 3rem;
 }
+
+
+.parent:hover .child:not(:hover){
+transform: scale(0.5) ;
+opacity: 0,3;
+
+}
