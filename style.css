@@ -23,6 +23,7 @@ body,
 
 .postheader:hover {color: wheat;}
 
+.postheader{transition: 0.3s;}
 .parent {
   display: flex;
   justify-content: space-around;
@@ -80,6 +81,7 @@ to{filter: opacity(100%);}
   transform: scale(0.5);
   opacity: 0.5;
 }
+.parent{ transition: 0.5s;}
 
 .fool {
   width: 4rem;
@@ -99,10 +101,14 @@ to{filter: opacity(100%);}
   outline: black 1rem solid;
   margin width: 25%;
 }
+.section-header{
+  transition: 0.3s;
+}
 
 .img:hover{
-transform: scale(1.105);
+transform: scale(1.05);
 }
+.img{ transition: 0.3s;}
 
 .animation{
 height: 2rem;
